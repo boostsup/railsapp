@@ -1,5 +1,4 @@
-Railsapp::Application.routes.draw do
-  resources :posts
+Railsapp3::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
