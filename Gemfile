@@ -40,7 +40,10 @@ gem 'jquery-rails'
 group :doc do
   gem 'sdoc', '0.3.20', require: false
 end
+
 group :production do
-  gem 'pg', '0.15.1'
-  gem 'rails_12factor', '0.0.2'
+  gem 'pg'
+end
+group :development, :test do
+  gem 'sqlite3'
 end
