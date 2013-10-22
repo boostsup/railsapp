@@ -41,9 +41,10 @@ group :doc do
   gem 'sdoc', '0.3.20', require: false
 end
 
-group :production do    
-    gem 'pg', '0.12.2'  
-end  
-group :development do  
-    gem 'sqlite3', '1.3.8'  
+
+group :production do
+  gem 'pg'
+end
+group :development, :test do
+  gem 'sqlite3'
 end
